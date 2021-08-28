@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>RPG_Engine</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Creatures\Player\SubSupports\" />
+    <Folder Include="Creatures\Player\SubWithards\" />
+    <Folder Include="Creatures\Player\SubWarriors\" />
+    <Folder Include="DamageTypes\" />
+  </ItemGroup>
+
+</Project>
