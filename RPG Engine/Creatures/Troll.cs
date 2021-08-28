@@ -23,7 +23,6 @@ namespace RPG_Engine.Creatures
         {
             targetHealth.Damage(primiryWeapon.GetCurrentDamage());
             Console.WriteLine("Troll dealing {1} damage to {0}", (targetHealth as Player).GetName(), primiryWeapon.GetCurrentDamage());
-            Console.WriteLine("{0} HP: {1}", (targetHealth as Player).GetName(), targetHealth.GetHealth());
         }        
 
         public void Damage(double amount)

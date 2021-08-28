@@ -72,7 +72,6 @@ namespace RPG_Engine
         {
             targetHealth.Damage(mainWeapon.GetCurrentDamage() * 10);
             Console.WriteLine("Dealing {0} damage to {1}", mainWeapon.GetCurrentDamage() * 10, (targetHealth as Monster).GetName());
-            Console.WriteLine("{0} HP: {1}", (targetHealth as Monster).GetName(), targetHealth.GetHealth());
         }
     }
 }

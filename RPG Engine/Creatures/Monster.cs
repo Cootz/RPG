@@ -1,4 +1,5 @@
-﻿using RPG_Engine.Weapons;
+﻿using RPG_Engine.Creatures.BaseInterfases;
+using RPG_Engine.Weapons;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RPG_Engine.Creatures
 {
-    public class Monster : Entity
+    public class Monster : Entity, IName
     {
         /// <summary>
         /// Name of the creature

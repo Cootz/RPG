@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RPG_Engine
 {
-    public class Player : Entity
+    public class Player : Entity, IName
     {
         /// <summary>
         /// Name of the class
