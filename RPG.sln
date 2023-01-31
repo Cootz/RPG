@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31613.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG", "RPG\RPG.csproj", "{0762FB62-0EF8-4A0F-8C9E-A817DAD3E7FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rpg.Console", "RPG console ver\rpg.Console.csproj", "{134106B1-46F6-44CA-9C3C-38A48450633F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG console ver", "RPG console ver\RPG console ver.csproj", "{134106B1-46F6-44CA-9C3C-38A48450633F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rpg.Engine", "RPG Engine\rpg.Engine.csproj", "{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG Engine", "RPG Engine\RPG Engine.csproj", "{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpg.Desktop", "rpg.Desctop\rpg.Desktop.csproj", "{6E13C674-01D0-4D3B-8428-3E6D160C14E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0762FB62-0EF8-4A0F-8C9E-A817DAD3E7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0762FB62-0EF8-4A0F-8C9E-A817DAD3E7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0762FB62-0EF8-4A0F-8C9E-A817DAD3E7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0762FB62-0EF8-4A0F-8C9E-A817DAD3E7FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{134106B1-46F6-44CA-9C3C-38A48450633F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{134106B1-46F6-44CA-9C3C-38A48450633F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{134106B1-46F6-44CA-9C3C-38A48450633F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E13C674-01D0-4D3B-8428-3E6D160C14E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E13C674-01D0-4D3B-8428-3E6D160C14E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E13C674-01D0-4D3B-8428-3E6D160C14E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E13C674-01D0-4D3B-8428-3E6D160C14E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
