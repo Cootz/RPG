@@ -6,8 +6,4 @@
     <RootNamespace>RPG_console_ver</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\RPG Engine\rpg.Engine.csproj" />
-  </ItemGroup>
-
 </Project>

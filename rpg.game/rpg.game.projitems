@@ -9,13 +9,34 @@
     <Import_RootNamespace>rpg.game</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Buffs\Buff.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Buffs\XPBoost.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\BuffType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IAttack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IHealth.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IMana.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IStamina.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Monster.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Player\Player.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Player\Support.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Player\Warrior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Player\Withard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Troll.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\BaseWeapon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\BaseWeaponIntefases\ILevelUp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\Enma.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\Sword.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\WeaponStats.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Content\" />
+    <Folder Include="$(MSBuildThisFileDirectory)RPG\" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
     <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
   </ItemGroup>
- </Project>
+</Project>

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rpg.Console", "RPG console ver\rpg.Console.csproj", "{134106B1-46F6-44CA-9C3C-38A48450633F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rpg.Engine", "RPG Engine\rpg.Engine.csproj", "{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpg.Desktop", "rpg.Desctop\rpg.Desktop.csproj", "{6E13C674-01D0-4D3B-8428-3E6D160C14E4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "rpg.Game", "rpg.game\rpg.Game.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		{134106B1-46F6-44CA-9C3C-38A48450633F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{134106B1-46F6-44CA-9C3C-38A48450633F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{134106B1-46F6-44CA-9C3C-38A48450633F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EBD9D77-B2E2-4BEF-9223-064D7C60179B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E13C674-01D0-4D3B-8428-3E6D160C14E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E13C674-01D0-4D3B-8428-3E6D160C14E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E13C674-01D0-4D3B-8428-3E6D160C14E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE034C9E-07CD-48D1-9A60-6C51BA525F7C}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		rpg.game\rpg.game.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
