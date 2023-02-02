@@ -1,8 +1,8 @@
-﻿using System;
-using RPG_Engine;
-using RPG_Engine.Creatures;
-using RPG_Engine.Creatures.BaseInterfases;
-using RPG_Engine.Weapons;
+﻿using rpg.Game.Entities;
+using rpg.Game.Entities.BaseInterfases;
+using rpg.Game.Entities.Player;
+using rpg.Game.Entities.Weapons;
+using System;
 
 namespace RPG_console_ver
 {

@@ -1,3 +1,3 @@
 ﻿
-using var game = new rpg.Desktop.Game1();
+using var game = new rpg.Game.RpgGame();
 game.Run();

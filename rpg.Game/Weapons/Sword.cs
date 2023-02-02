@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Engine
+namespace rpg.Game.Entities.Weapons
 {
-    public class Support : Player
+    public abstract class Sword : BaseWeapon
     {
+        
+
+
     }
 }

@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Engine.Creatures.BaseInterfases
+namespace rpg.Game.Entities
 {
-    public interface IAttack
+    public class Entity
     {
-        public void Attack(IHealth targetHealth);
+       
+
     }
 }

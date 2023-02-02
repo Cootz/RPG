@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Engine.Weapons
+namespace rpg.Game.Entities.Weapons
 {
     public abstract class BaseWeapon
     {

@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Engine.Weapons
+namespace rpg.Game.Entities.BaseInterfases
 {
-    public abstract class Sword : BaseWeapon
+    public interface IAttack
     {
-        
-
-
+        public void Attack(IHealth targetHealth);
     }
 }

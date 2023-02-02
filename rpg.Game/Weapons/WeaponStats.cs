@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Engine.Weapons
+namespace rpg.Game.Entities.Weapons
 {
     public class WeaponStats
     {
-        public int Damage;
+        public int BaseDamage;
         public int Durability;
         public int Level;
         public int EnchantLevel;

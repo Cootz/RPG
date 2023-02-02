@@ -6,4 +6,11 @@
     <RootNamespace>RPG_console_ver</RootNamespace>
   </PropertyGroup>
 
+  <Import Project="..\rpg.game\rpg.game.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
+    <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.1.303" />
+  </ItemGroup>
+
 </Project>

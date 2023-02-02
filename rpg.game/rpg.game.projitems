@@ -6,34 +6,33 @@
     <SharedGUID>6efba8a9-a407-4029-bdd0-651d22a87386</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>rpg.game</Import_RootNamespace>
+    <Import_RootNamespace>rpg.Game</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Buffs\Buff.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Buffs\XPBoost.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\BuffType.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IAttack.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IHealth.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IMana.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IName.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\BaseInterfases\IStamina.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Entity.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Monster.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Player\Player.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Player\Support.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Player\Warrior.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Player\Withard.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Entities\Troll.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\BaseWeapon.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\BaseWeaponIntefases\ILevelUp.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\Enma.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\Sword.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RPG\Weapons\WeaponStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buffs\Buff.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buffs\XPBoost.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buffs\BuffType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IAttack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IHealth.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IMana.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IStamina.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Monster.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Player.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Support.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Warrior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Withard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Troll.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Main.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Weapons\BaseWeapon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Weapons\BaseWeaponIntefases\ILevelUp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Weapons\Enma.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Weapons\Sword.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Weapons\WeaponStats.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Content\" />
-    <Folder Include="$(MSBuildThisFileDirectory)RPG\" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />

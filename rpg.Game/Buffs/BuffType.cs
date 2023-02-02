@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Engine
+namespace rpg.Game.Buffs
 {
-    public class Entity
+    public enum BuffType
     {
-       
-
+        XPBoost, HealthBoost, ManaBoost, StaminaBoost, Drawing 
     }
 }

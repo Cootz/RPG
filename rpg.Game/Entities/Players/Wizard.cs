@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Engine
+namespace rpg.Game.Entities.Players
 {
-    class Withard : Player
+    class Wizard : Player
     {
     }
 }

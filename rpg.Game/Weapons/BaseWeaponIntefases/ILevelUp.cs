@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Engine.Weapons.BaseWeaponIntefases
+namespace rpg.Game.Entities.Weapons.BaseWeaponIntefases
 {
     interface ILevelUp
     {

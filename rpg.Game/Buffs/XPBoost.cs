@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Engine.Buffs
+namespace rpg.Game.Buffs
 {
     public class XPBoost : Buff
     {
