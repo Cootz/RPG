@@ -1,9 +1,9 @@
-﻿using rpg.Game.Buffs;
+﻿using Microsoft.Xna.Framework;
+using rpg.Game.Buffs;
 using rpg.Game.Entities.BaseInterfases;
 using rpg.Game.Entities.Weapons;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace rpg.Game.Entities
 {
@@ -44,6 +44,9 @@ namespace rpg.Game.Entities
 
         //TODO: rework damage system
         protected BaseWeapon weapon;
+
+        public override bool Enabled { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override int UpdateOrder { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public LivingEntity(double maxHp = Double.NaN)
         {
@@ -108,7 +111,6 @@ namespace rpg.Game.Entities
             else
             {
                 sp = 0;
-                //TODO: Entity death
             }
         }
 
@@ -141,5 +143,9 @@ namespace rpg.Game.Entities
             }
         }
 
+        public override void Update(GameTime gameTime)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

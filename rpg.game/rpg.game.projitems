@@ -18,13 +18,14 @@
     <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IName.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IStamina.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\LivingEntity.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\Monster.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Player.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Support.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Warrior.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Withard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Wizard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\Troll.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Main.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RpgGame.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Weapons\BaseWeapon.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Weapons\BaseWeaponIntefases\ILevelUp.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Weapons\Enma.cs" />
@@ -33,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Content\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />

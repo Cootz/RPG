@@ -9,7 +9,5 @@ namespace rpg.Game.Entities.Weapons
     public abstract class Sword : BaseWeapon
     {
         
-
-
     }
 }

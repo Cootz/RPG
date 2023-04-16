@@ -15,6 +15,5 @@ namespace rpg.Game.Entities
         protected BaseWeapon secondaryWeapon;
 
         public Monster(Double maxHp): base(maxHp) { }
-
     }
 }

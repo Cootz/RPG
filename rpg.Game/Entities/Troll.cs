@@ -15,7 +15,6 @@ namespace rpg.Game.Entities
         {
             primiryWeapon = weapon;
             name = "Troll of the forest";
-        }    
-
+        }
     }
 }
