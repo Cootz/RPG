@@ -9,9 +9,9 @@
     <Import_RootNamespace>rpg.Game</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Buffs\Buff.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Buffs\XPBoost.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Buffs\BuffType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\LivingEntityEffect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\XPBoost.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\EffectType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IAttack.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IHealth.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IMana.cs" />
@@ -26,6 +26,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Entities\Players\Wizard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\Troll.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RpgGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\ISetUp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Scene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\SceneManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\WorldScene.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Weapons\BaseWeapon.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Weapons\BaseWeaponIntefases\ILevelUp.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Weapons\Enma.cs" />

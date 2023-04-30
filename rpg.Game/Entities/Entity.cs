@@ -47,12 +47,13 @@ namespace rpg.Game.Entities
         public event EventHandler<EventArgs> DrawOrderChanged;
         public event EventHandler<EventArgs> VisibleChanged;
 
+        public abstract void SetUp();
+
         public void Draw(GameTime gameTime)
         { 
             model.Draw(worldMatrix, viewMatrix, projectionMatrix);
         }
 
         public abstract void Update(GameTime gameTime);
-
     }
 }

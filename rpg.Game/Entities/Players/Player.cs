@@ -1,4 +1,4 @@
-﻿using rpg.Game.Buffs;
+﻿using rpg.Game.Effects;
 using rpg.Game.Entities.BaseInterfases;
 using System;
 using System.Collections.Generic;

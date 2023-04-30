@@ -1,5 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
-using rpg.Game.Buffs;
+using rpg.Game.Effects;
 using rpg.Game.Entities.BaseInterfases;
 using rpg.Game.Entities.Weapons;
 using System;
@@ -40,7 +40,7 @@ namespace rpg.Game.Entities
         /// <summary>
         /// Buffs that currently affected on player
         /// </summary>
-        protected List<Buff> currentBuffs;
+        protected List<LivingEntityEffect> currentBuffs;
 
         //TODO: rework damage system
         protected BaseWeapon weapon;
@@ -141,6 +141,11 @@ namespace rpg.Game.Entities
             {
                 hp = maxHp;
             }
+        }
+
+        public override void SetUp()
+        {
+            
         }
 
         public override void Update(GameTime gameTime)
