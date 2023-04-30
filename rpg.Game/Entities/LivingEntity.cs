@@ -40,7 +40,7 @@ namespace rpg.Game.Entities
         /// <summary>
         /// Buffs that currently affected on player
         /// </summary>
-        protected List<Effect> currentBuffs;
+        protected List<LivingEntityEffect> currentBuffs;
 
         //TODO: rework damage system
         protected BaseWeapon weapon;

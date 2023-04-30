@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace rpg.Game.Effects
 {
-    public class XPBoost : Effect
+    public class XPBoost : LivingEntityEffect
     {
         public XPBoost(int duration)
         {

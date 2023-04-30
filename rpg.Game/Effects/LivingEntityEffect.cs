@@ -1,6 +1,6 @@
 ﻿namespace rpg.Game.Effects
 {
-    public abstract class Effect
+    public abstract class LivingEntityEffect
     {
         /// <summary>
         /// Effect duration
