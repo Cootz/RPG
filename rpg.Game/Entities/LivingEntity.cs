@@ -20,7 +20,7 @@ namespace rpg.Game.Entities
         protected double hp;
 
         /// <summary>
-        /// Max amout of hp
+        /// Max amount of hp
         /// </summary>
         protected double maxHp;
 
@@ -33,7 +33,7 @@ namespace rpg.Game.Entities
         /// </summary>
         protected double sp;
         /// <summary>
-        /// Expiriance points
+        /// Experience points
         /// </summary>
         protected double xp;
 
@@ -145,7 +145,7 @@ namespace rpg.Game.Entities
 
         public override void Update(GameTime gameTime)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
