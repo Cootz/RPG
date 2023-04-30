@@ -12,16 +12,28 @@ namespace rpg.Game.Entities
     public abstract class Entity: IUpdateable, IDrawable
     {
         protected Model model;
-        
+        protected Matrix projectionMatrix;
+        protected Matrix viewMatrix;
+        protected Matrix worldMatrix;
+
         public Vector3 Position { get; set; }
         public Vector3 Velocity { get; set; }
 
         public Vector3 Size 
         {
-            get
-            {
-                return Vector3.Zero;
-            }
+            get => Vector3.Zero;
+        }
+
+        public void SetModel(Model model)
+        {
+            this.model = model;
+        }
+
+        public void SetMatrix(Matrix projectionMatrix, Matrix viewMatrix, Matrix worldMatrix)
+        {
+            this.projectionMatrix = projectionMatrix;
+            this.viewMatrix = viewMatrix;
+            this.worldMatrix = worldMatrix;
         }
 
         public abstract bool Enabled { get; set; }
@@ -39,7 +51,7 @@ namespace rpg.Game.Entities
 
         public void Draw(GameTime gameTime)
         { 
-            model.Draw(new Matrix(), new Matrix(), new Matrix());
+            model.Draw(worldMatrix, viewMatrix, projectionMatrix);
         }
 
         public abstract void Update(GameTime gameTime);

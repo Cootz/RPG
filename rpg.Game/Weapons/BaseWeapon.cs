@@ -1,20 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace rpg.Game.Entities.Weapons
 {
-    public abstract class BaseWeapon
+    public abstract class BaseWeapon : Entity
     {
         protected WeaponStats stats;
 
-        public virtual double GetCurrentDamage() { return Double.NaN; }
+        public virtual double GetCurrentDamage() => Double.NaN;
 
-        public virtual WeaponStats GetStats()
-        {
-            return stats;
-        }
+        public virtual WeaponStats GetStats() => stats;
     }
 }
