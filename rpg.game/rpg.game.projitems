@@ -9,9 +9,9 @@
     <Import_RootNamespace>rpg.Game</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Buffs\Buff.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Buffs\XPBoost.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Buffs\BuffType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\Effect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\XPBoost.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\EffectType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IAttack.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IHealth.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseInterfases\IMana.cs" />
